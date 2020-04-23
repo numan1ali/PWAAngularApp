@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
 
   items: MenuItem[];
   sideMenuItems: MenuItem[];
-  
+  someVariable;
   visibleSidebar1;
   constructor(private router: Router) { }
 

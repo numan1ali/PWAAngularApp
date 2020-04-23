@@ -89,6 +89,7 @@ export class SideMenuComponent implements OnInit {
     ];
   }
   closeSideBar(){
+      
       this.visibleSidebar1 = false;
       this.visibleSideBarChange.emit(this.visibleSidebar1);
       console.log(this.visibleSidebar1);
