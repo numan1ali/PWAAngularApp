@@ -1,0 +1,28 @@
+<div  id="append" class="layout-topbar">
+
+    <p-menubar [model]="items" styleClass="menubar" autoZIndex="true"></p-menubar>
+
+    <button pButton type="button" class="button" (click)="visibleSidebar1 = true" icon="pi pi-align-justify"></button> 
+    <app-side-menu
+        [(visibleSideBar)] = "visibleSidebar1"
+    ></app-side-menu>
+   
+    
+</div> 
+<!-- 
+<p-sidebar [(visible)]="visibleSidebar1" [baseZIndex]="10000" [blockScroll]="false" [dismissible]="true" styleClass="psidebar" >
+    <h1 style="font-weight:normal">Left Sidebar</h1>
+    
+    <p-menu [model]="sideMenuItems" styleClass="side_menu"></p-menu>
+</p-sidebar> -->
+
+<!-- <div >
+    
+    <p-slideMenu [model]="items" [viewportHeight]="250"></p-slideMenu> 
+    <p-slideMenu [model]="items1"></p-slideMenu> [style.textAlign]="'right'"
+    <p-slideMenu #menu [popup]="true" [model]="items1"></p-slideMenu>
+</div> -->
+    
+<!-- <div class="menu-icon">
+    <span class="pi pi-align-justify" ></span>
+</div> -->

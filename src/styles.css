@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@import "../node_modules/primeicons/primeicons.css";
+@import "../node_modules/primeng/resources/themes/nova-light/theme.css";
+@import "../node_modules/primeng/resources/primeng.min.css";
+
+/* Content styling */
+.belowmenu {
+    /* top:40px; */
+    padding: 40px 10px 10px 10px;
+    position: relative;
+}
+
+/* Menubar css */
+.menubar.ui-menubar {
+    height: 67px;
+    line-height: 46px;
+    background-color: rgba(0, 0, 0, 0.3) !important; 
+    width: 100%;
+    border: 0px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+    position: fixed;
+    overflow: auto;
+}
+
+.menubar.ui-menubar ul {
+    padding-right: 30px;
+    float: right;
+}
+.menubar.ui-corner-all {
+    border-radius: 0px;
+}
+.menubar.ui-menubar .ui-menubar-custom {
+    float: left;
+    padding-left: 10px;
+}
+/* 
+.button {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 1em;
+} */
+
+/* Side menu styling */
+.side_menu.ng-tns-c3-0  { 
+    width: 238px;
+}
+.side_menu.ui-menu {
+    top: 100px;
+    width: 259px;
+    height: 100%;
+    position: absolute;
+    border: 0;
+}
+
+.psidebar {
+  width: 0;
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+  transition: all 0.5s;
+}
+body .ui-sidebar {
+    padding: 0.5em .5em;
+}
